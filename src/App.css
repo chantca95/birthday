@@ -1,5 +1,119 @@
 .App {
+  /* text-align: center; */
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  color: whitesmoke;
+  background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.marginBot {
+  margin-bottom: 10px;
+}
+
+/* @keyframes fadeout {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+
+.fadeout {
+  animation-name: fadeout;
+  animation-duration: 5s;
+}
+
+.fadein {
+  animation-name: fadein;
+  animation-duration: 5s;
+}
+
+.underlying {
+  visibility: hidden;
+  position: absolute;
+} */
+
+@keyframes fadeInOut {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeInOut {
+  animation-name: fadeInOut;
+  animation-duration: 5s; 
+}
+
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.iceTable {
+  width: 216px;
+  height: 216px;
+  margin:auto
+}
+.iceGrid {
+  width: 72px;
+  height: 72px;
+}
+
+.smallImg{
+  width: 72px;
+  height: 72px;
+}
+
+.tinyImg{
+  cursor: pointer;
+  position: absolute;
+  width:50px;
+  height:50px;
+  z-index: 100;
+}
+
+table {
+  width: 60%;
+  height: 100px;
+  margin: 0% 20%;
+}
+
+.bellyButton {
+  cursor: pointer;
+}
+
+.hint {
+  color: gold;
+  cursor: pointer;
+}
+
+.blurb {
+  padding: 24px 96px;
+}
+
+.link {
+  color: lightgreen;
+  font-size: large;
+}
+
+.Success {
+  color: aquamarine;
+}
+
+.Failure {
+  color: red;
+}
+
+.Gif {
+  width: 300px;
+}
+
+.gridElement {
+  cursor: pointer;
+  width: 12%;
+  margin: 0.25%;
 }
 
 .App-logo {
